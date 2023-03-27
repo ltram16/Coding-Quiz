@@ -16,9 +16,14 @@ h2 {
     float: right;
 }
 
-.high-scores {
+.view-high-scores {
     color: black;
+    margin: 3%;
+    font-size: 20px;
 }
+
+
+/* main page */
 
 .title {
     color:rgb(246, 83, 211);
@@ -41,4 +46,21 @@ h2 {
     border-radius: 3px;
     padding: 10px 30px;
     margin-top: 5%;
+}
+
+/* high scores page */
+
+.high-scores-title {
+    color: rgb(246, 83, 211);
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 10px;
+}
+
+.highscores-page {
+    color: black;
+    margin: 3%;
+    font-size: 20px;
 }
