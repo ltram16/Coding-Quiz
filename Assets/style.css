@@ -33,13 +33,13 @@ h2 {
     padding-bottom: 50px;
 }
 
-#main-page {
+#start-page {
     text-align: center;
     line-height: 35px;
     margin: 10%;
 }
 
-#button {
+#start-btn {
     background-color: rgb(246, 83, 211);
     color: black;
     font-size: 18px;
@@ -63,4 +63,34 @@ h2 {
     color: black;
     margin: 3%;
     font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, auto);
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: auto;
+    overflow: visible;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    font-size: large;
+    margin: 10px;
+    color: var(--white-color);
+    cursor: pointer;
 }
