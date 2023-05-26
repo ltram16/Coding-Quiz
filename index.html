@@ -9,24 +9,39 @@
 </head>
 <body>
     <header>
-        <a href="highscores.html" class="view-high-scores">View High Scores</a>
-        <h2 class="time">TIME LEFT: <span id="time-left"></span></h2>
+        <a href="highscores.html" class="scores">View High Scores</a>
+        <h2 class="timer">TIME LEFT: <span id="time"></span></h2>
     </header>
-    <section id="start-page">
+    <section id="start-page" class="start">
         <h1 class="title">Welcome to the Coding Quiz!</h1>
-        <div id="description">
+        <div id="main-description">
             <p>This quiz contains questions on Javascript fundamentals!</p>
             <p>The quiz is timed for 1 minute. For every incorrect answers, you'll be deducted 5 seconds.</p>
             <p>Press the start button to begin.</p>
-            <button id="start-button">Start Game</button>
+            <button id="start">Start Quiz</button>
         </div>
     </section>
-    <section id="answer-choices"></section>
-    <footer id="footer">
-        <!-- <h2 class="time">TIME LEFT: <span id="time-left"></span></h2> -->
-    </footer>
-<script src="./Assets/script.js"></script>
+
+    <section>
+        <div id="questions" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+            <p id="feedback"></p>
+        </div>
+
+        <div id="end-page" class="hide">
+            <h2>Completed!</h2>
+            <p>Your final score is <span id="final-score">.</span></p>
+            <p>
+                Enter initials: <input type="text" id="initials">
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+    </section>
+
+
 <script src="./Assets/highscores.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./Assets/questions.js"></script>
+<script src="./Assets/script.js"></script>
 </body>
 </html>
