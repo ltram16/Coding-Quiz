@@ -6,3 +6,5 @@ This application is a coding quiz that utilizes HTML, CSS, and JS. This game beg
 https://ltram16.github.io/coding-quiz/
 
 Screenshot of deployed application
+
+<img width="1512" alt="Screenshot 2023-05-25 at 8 57 56 PM" src="https://github.com/ltram16/coding-quiz/assets/119918403/d14df79b-b376-4eaf-915a-c105ef463c3e">
